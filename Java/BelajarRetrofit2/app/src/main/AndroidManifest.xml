@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.dwichan.pmo2_dwicandrapermana_pert4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/peoples"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/peoples"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PMO2_DwiCandraPermana_Pert4"
+        tools:ignore="AllowBackup,UnusedAttribute">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InsertUpdateActivity" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
